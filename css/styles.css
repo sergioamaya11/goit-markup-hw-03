@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&display=swap');
+:root {
+   color:  #212121;
+   --detail-color: rgb(248, 243, 243);
+  }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+   body{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:normal;
+    letter-spacing: 0.42px;
+    font-family: roboto;
+   }
+   a{
+    color: currentColor;
+    text-decoration: none;
+   }
+    ul{
+      margin: 0%;
+      padding: 0%;
+      list-style-type: none;
+    }
+   .logo{
+    color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.03px;
+   }
+    .nav__list{
+      display: flex;
+      column-gap: 16px;
+    }
+    .nav__list_item{
+      color: #212121;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+    }
+     .nav__list_item:hover {
+    color:  #2196F3;
+     font-weight: 500;
+     letter-spacing: 0.02em;
+    }
+    .nav__list_item1{
+      color: #212121;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+    }
+     .nav__list_item1:hover {
+      color: #2196F3;
+       font-weight: 500;
+       letter-spacing: 0.02em;
+     }
+     .nav__list_item2{
+      color: #212121;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+     }
+      .nav__list_item2:hover {
+      color: #2196F3;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+     }
+     .nav__list__contact {
+        color: #757575;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+     }
+      .nav__list__contact:hover {
+      color:#2196F3;
+       font-weight: 500;
+       letter-spacing: 0.02em;
+      }
+      .nav__contact{
+      color: #FFFFFF;
+       font-weight: 400;
+       letter-spacing: 0.03em;
+       background-color: var(--font-color);
+      }
+       .button__service{
+      color:  #FFFFFF;
+      font-weight: 900;
+      letter-spacing: 0.06em;
+      background: #2196F3;
+     }
+    .logo{
+        font-weight: 400;
+        letter-spacing: 0.03em;
+        background-color: var(--font-color);
+    }
+     .nav__contact{
+      color: #757575;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+     }
+          .Filter-Button{
+            color:  #212121;
+            font-family: Roboto;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 26px;
+              letter-spacing: 0.48px;
+              padding: 6px 24px;
+              border-radius: 4px;
+              text-align: center;
+              background-color: #FFFFFF;
+          }
+           .Filter-Button:hover{
+            color: white;
+           }
+          .current-button {
+            color: white;
+            background: #2196F3;
+          }
+          .container {
+            width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+          }
+
+          
+          .navigation__container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          }
+         
+
+          .button{
+            display: flex;
+            justify-content: center;
+            gap: 50px; 
+          }
+          .p_header{
+            padding: 10px;  
+          }
+
+
+          .espacio{
+            display: flex; 
+            flex-basis: calc((100% -30px *2)/3);
+            gap: 30px;
+          }
+
+          .team{
+            display: flex;
+            flex-basis: calc((100% -30px *3)/4);
+            gap: 30px;
+          }
+          
+          .service{
+            
+            display: flex;
+            flex-wrap: wrap;
+            flex-basis: calc((100% -30px *2)/3);
+            gap: 30px;
+          }
+
+          .service__container{
+            display: flex;
+          }
+
+          .button__container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+          }
+
+
+          
+
+          
+         
+        
+         

@@ -47,6 +47,7 @@
      font-weight: 500;
      letter-spacing: 0.02em;
     }
+
     .nav__list_item1{
       color: #212121;
       font-weight: 500;
@@ -122,7 +123,7 @@
           .container {
             width: 1200px;
             margin: 0 auto;
-            padding: 0 15px;
+            padding: 0 35px;
           }
 
           
@@ -132,16 +133,23 @@
             justify-content: space-between;
           }
          
-
+         .navigation{
+          display: flex;
+          align-items: center;
+          gap: 90px;
+         }
           .button{
             display: flex;
             justify-content: center;
             gap: 50px; 
           }
-          .p_header{
-            padding: 10px;  
+          .p_service{
+            padding: 0 90px;  
           }
 
+         .p_soluciones{
+          padding:  80px;
+         }
 
           .espacio{
             display: flex; 
@@ -155,8 +163,7 @@
             gap: 30px;
           }
           
-          .service{
-            
+          .service {
             display: flex;
             flex-wrap: wrap;
             flex-basis: calc((100% -30px *2)/3);
@@ -165,15 +172,30 @@
 
           .service__container{
             display: flex;
+            justify-content: space-between;
+            gap: 30px;
           }
 
           .button__container{
             display: flex;
-            flex-wrap: wrap;
+            flex-direction: column;
             justify-content: center;
+            align-items: center;
+            height: 100%;
             
           }
 
+          .task{
+            display: flex;
+            justify-content: space-around;
+          }
+
+          .work{
+            display: flex;
+            justify-content: space-around;
+          }
+
+          
 
           
 

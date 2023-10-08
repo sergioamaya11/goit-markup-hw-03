@@ -41,6 +41,7 @@
       color: #212121;
       font-weight: 500;
       letter-spacing: 0.02em;
+     
     }
      .nav__list_item:hover {
     color:  #2196F3;
@@ -115,6 +116,7 @@
           }
            .Filter-Button:hover{
             color: white;
+              border-bottom:  #F5F4FA;
            }
           .current-button {
             color: white;
@@ -124,6 +126,8 @@
             width: 1200px;
             margin: 0 auto;
             padding: 0 35px;
+            background-color: #F5F4FA;
+            padding-top: 90px;
           }
 
           
@@ -137,6 +141,8 @@
           display: flex;
           align-items: center;
           gap: 90px;
+          padding-bottom: 90px;
+          
          }
           .button{
             display: flex;
@@ -161,6 +167,10 @@
             display: flex;
             flex-basis: calc((100% -30px *3)/4);
             gap: 30px;
+            padding-bottom: 90px;
+            border-radius: 0px 0px 4px 4px;
+              background: #FFF;
+            
           }
           
           .service {
@@ -168,6 +178,10 @@
             flex-wrap: wrap;
             flex-basis: calc((100% -30px *2)/3);
             gap: 30px;
+            border: 1px solid #EEE;
+              background: #FFF;
+              box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+              border: 1px solid #EEEEEE
           }
 
           .service__container{
@@ -182,12 +196,15 @@
             justify-content: center;
             align-items: center;
             height: 100%;
-            
+            color: #FFFFFF;
+            background-color: #2F303A;
+            height: 600px;
           }
 
           .task{
             display: flex;
             justify-content: space-around;
+            padding-top: 90px;
           }
 
           .work{
@@ -195,6 +212,13 @@
             justify-content: space-around;
           }
 
+          .end{
+            font-style: normal;
+            background-color: #2F303A;
+            padding-block: 90px;
+            height: 252px;
+            width: 1600px;
+          }
           
 
           
